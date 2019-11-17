@@ -55,7 +55,7 @@ class CitiesSlider extends React.Component {
       slide.city.split('').map(l => React.createElement("span", null, l))),
 
 
-      React.createElement("a", { href: "/map" }, React.createElement("p", { className: "slider__slide-readmore" }, "read more"))),
+      React.createElement("a", { href: "http://127.0.0.1:5000/map" }, React.createElement("p", { className: "slider__slide-readmore" }, "read more"))),
 
       React.createElement("div", { className: "slider__slide-parts" },
       [...Array(this.IMAGE_PARTS).fill()].map((x, i) =>
